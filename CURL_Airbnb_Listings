@@ -1,0 +1,4 @@
+curl --location --request POST 'https://stevesie.com/cloud/api/v1/endpoints/e7762587-1426-47ac-b5d5-d9b2836ec89b/executions' \
+--header 'Token: 3138c6bb-6623-4bef-9da0-c61793a0d117' \
+--header 'Content-Type: application/json' \
+--data-raw '{"inputs":{"neighborhood_id":"","ne_lat":"","ne_lng":"","property_type_id":"","sw_lat":"","sw_lng":"","checkin_date":"","checkout_date":"","location":"","price_max":"","price_min":"","superhost_only":"","currency":"","limit":"","offset":"","airbnb_api_key":""},"proxy":{"type":"shared","location":"nyc"},"format":"json"}'
